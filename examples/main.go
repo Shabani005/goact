@@ -1,9 +1,10 @@
-package usage
+package main
 
 import (
 	"net/http"
 	"time"
 	"github.com/shabani005/goact"
+	"fmt"
 )
 
 const htmlTemplate = `
@@ -33,5 +34,6 @@ func main() {
 		}
 	})
 
+	fmt.Println("Listening on Port :8080")
 	http.ListenAndServe(":8080", mux)
 }
