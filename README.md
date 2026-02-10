@@ -1,9 +1,9 @@
 # React in Go (not really)
 
-- Look in examples folder to see example usage
+- Look in examples folder to see examples of usage
 
 - Quick Start:
 ```console
   cd /examples
-  go run main.go
+  go run better.go
 ```
