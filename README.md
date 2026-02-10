@@ -4,6 +4,6 @@
 
 - Quick Start:
 ```console
-  cd /examples
+  cd examples/
   go run better.go
 ```
